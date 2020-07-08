@@ -1,0 +1,2 @@
+# A-32-bit-floating-point-multiplier-based-on-FPGA
+This project USES Quartus II and ModelSim software, and follows THE IEEE754 standard. It adopts 4:2 compressor structure and other components to design a multiplier, which reduces the hardware scale on the premise of ensuring high speed. The multiplier takes two normalized 32-bit floating-point Numbers and multiplicates them to obtain the normalized result. The multiplier can deal with "special" Numbers such as zero, plus, minus infinity, and "non-number (NaN)".
